@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "write-a-minecraft-paper-1-moz2cz8v",
+  "version": "${version}",
+  "name": "Write a Minecraft Paper 1 - Secret Menu XRAY",
+  "description": "Client-side Fabric mod that opens a simple 'Secret Menu' overlay and toggles an XRAY-style mode that hides common terrain blocks client-side while leaving ores visible.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/write-a-minecraft-paper-1-moz2cz8v/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.modforge.writeaminecraftpaper1.WriteAMinecraftPaper1Mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
